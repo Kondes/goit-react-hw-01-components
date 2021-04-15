@@ -22,12 +22,12 @@ FriendList.defaultProps = {
 FriendList.propTypes = {
   friends: PropTypes.arrayOf(
     PropTypes.shape({
-    //   avatar: PropTypes.string,
+      avatar: PropTypes.string,
       isOnline: PropTypes.bool.isRequired,
       name: PropTypes.string.isRequired,
       id: PropTypes.number.isRequired,
     })
-  ),
+  ).isRequired,
 };
 
 export default FriendList;
