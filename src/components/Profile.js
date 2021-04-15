@@ -24,7 +24,8 @@ const Profile = ({ avatar, name, tag, location, followers, views, likes }) => (
         <span>{likes}</span>
       </li>
     </ul>
-  </div>
+    </div>
+    
 );
 
 Profile.defaultProps = {
