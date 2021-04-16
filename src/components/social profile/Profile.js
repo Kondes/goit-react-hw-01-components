@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import defaultImage from "./default.png";
 
-const Profi = ({ avatar, name, tag, location, stats}) => (
+const Profile = ({ avatar, name, tag, location, stats}) => (
   <div>
     <div>
       <img src={avatar} alt="Аватар пользователя" width="150" />
