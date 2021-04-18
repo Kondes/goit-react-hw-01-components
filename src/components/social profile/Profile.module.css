@@ -1,0 +1,21 @@
+.profile {
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.3);
+  border: solid 1px grey;
+  width: 250px;
+  text-align: center;
+  margin: auto;
+}
+.name {
+  font-size: 25px;
+}
+.quantity {
+  font-weight: 200;
+}
+.stats {
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  background-color: #f3f6f9;
+  border-radius: 0 0 5px 5px;
+}
